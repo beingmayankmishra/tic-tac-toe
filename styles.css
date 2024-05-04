@@ -1,0 +1,59 @@
+body {
+    background-color: #ff7eb9; /* Pink background for the whole window */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Use a common font */
+  }
+  
+  .container {
+    text-align: center;
+    padding-top: 50px; /* Add some space from the top */
+  }
+  
+  #game-board {
+    display: inline-block;
+    border: 6px solid #3498db; /* Blue border */
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white; /* White background for the game board */
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3498db; /* Blue border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .cell:hover {
+    background-color: #f7dc6f; /* Yellow background on hover */
+  }
+  
+  #status {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #restart-btn {
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2ecc71; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  #restart-btn:hover {
+    background-color: #27ae60; /* Darker green background on hover */
+  }
+  
